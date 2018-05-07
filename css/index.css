@@ -1,0 +1,241 @@
+@charset 'utf-8';
+/**********************************
+        DEFAULTS
+**********************************/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: BlinkMacSystemFont, -apple-system, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+body{
+    min-height: 100vh;
+}
+
+/**********************************
+        LAYOUT
+**********************************/
+.page{
+    transform: translateX(-200%);
+    width: 100%;
+    padding: 5rem 0 2rem 0;
+    transition: transform 0.5s ease-out;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+}
+.page.active{
+    transform: translateX(0);
+}
+.page header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4.3rem;
+    padding: 0 0 2rem 0;
+    border-bottom: 0.3rem solid #333;
+    background-color: #29abe2;
+    /*#39aee0*/
+    color: #fff;
+}
+.page header>h1{
+    font-size: 3rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.iconic {
+    float:left;
+    height: 4.0rem;
+    padding-right: 2rem;
+}
+/**********************************
+        LIST PAGE
+**********************************/
+.item-card{
+    margin: 1rem 2rem;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #000;
+    overflow: auto;
+    background-color: #a3cae2;
+}
+/*
+.transition1{
+    position:absolute;
+    left: -1000px;
+    transition: all 1s ease;
+}
+.transition2{
+    left:0;
+    transition: all 1s ease;
+}
+*/
+.title2{
+      font-size: 1.5rem;
+    font-weight: 150;
+    line-height: 2.4rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    color: #000;
+}
+.item-title:hover{
+    color: orange;
+}
+
+.desc{
+    font-size: 0.8rem;
+    font-weight: 150;
+    line-height: 1.2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color: #000;
+    text-overflow: clip;
+    overflow: hidden;
+}
+/**********************************
+        DETAILS PAGE
+**********************************/
+.back-btn{
+    color: #fff;
+    margin-right: 2rem;
+}
+.back-btn:hover{
+    color: orange;
+}
+/**********************************
+        ANIMATIONS
+**********************************/
+/**********************************
+        MEDIA QUARIES
+**********************************/
+
+@media screen and (min-width: 1px) {
+    .page header>h1{
+        font-size:1.3rem;
+      }
+  
+    .item-card img{
+    margin: 2%;
+    padding: 0.5rem;
+    width: 96%;
+    height: auto;
+}
+    .icon{
+    margin-right: auto;
+    padding: auto;
+    width: auto;
+    height: 8rem;
+}
+    
+.item-title{
+    font-size: 1.2rem;
+    font-weight: 150;
+    line-height: 2rem;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+}
+    .item-desc{
+    font-size: 0.8rem;
+    font-weight: 150;
+    line-height: 1.2rem;
+    padding-bottom: 1rem 
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #000;
+    height: 3.6rem;
+    text-overflow: clip;
+    overflow: hidden;
+}
+}
+
+@media screen and (min-width: 461px) {
+    .page header>h1{
+    font-size:2.5rem;
+       }
+   .icon{
+    float:left;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    width: auto;
+    height: 8rem;
+    border-right: 1px solid #333;
+}
+    .item-card img{
+    float:left;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+    border-right: 1px solid #333;
+}
+    .item-desc{
+    font-size: 1rem;
+    font-weight: 150;
+    line-height: 1.2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    color: #000;
+    height: 3.6rem;
+    text-overflow: clip;
+    overflow: hidden;
+}
+    .item-title{
+    font-size: 1.4rem;
+    font-weight: 150;
+    line-height: 2.2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    color: #000;
+    cursor: pointer;
+}
+}
+@media screen and (min-width: 720px) {
+    .page header>h1{
+    font-size:3rem;
+         }
+    .icon{
+    float:left;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    width: auto;
+    height: 8rem;
+    border-right: 1px solid #333;
+}
+    .item-card img{
+    float:left;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    width: auto;
+    height: 8rem;
+    border-right: 1px solid #333;
+}
+    
+.item-title{
+    font-size: 1.5rem;
+    font-weight: 150;
+    line-height: 2.4rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    color: #000;
+    cursor: pointer;
+}
+    .item-desc{
+    font-size: 1rem;
+    font-weight: 150;
+    line-height: 1.2rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    color: #000;
+    height: auto;
+    text-overflow: clip;
+    overflow: hidden;
+}
+}

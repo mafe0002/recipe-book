@@ -1,0 +1,194 @@
+{"recipes": [
+        {"id": "4",
+            "name": "Nigerian Jollof Rice",
+            "desc": "This is a dish that has a continental taste and look",
+            "picture": "img/nigerian-jollof-rice.png",
+            "ingredients": [{"id":"100",
+                "list": "- 750g long grain parboiled rice"
+            }, {"id":"101",
+                "list": "- Vegetable Oil, cooked Chicken"
+            }, {"id":"102",
+                "list": "- 100g of cooked liver"
+            }, {"id":"103",
+                "list": "- 1 tablespoon Nigerian curry powder"
+            }, {"id":"104",
+                "list": "- half cup green beans"
+            }, {"id":"105",
+                "list": "- half cup of freshly diced carrots"
+            }, {"id":"106",
+                "list": "- half cup of sweet corn"
+            }, {"id":"107",
+                "list": "- half cup of chicken stock"
+            }, {"id":"108",
+                "list": "- Salt"
+            }, {"id":"109",
+                "list": "- 3 medium sized chopped onions"
+            }, {"id":"200",
+                "list": "- 3 stock/boullion cubes"
+            }, {"id":"201",
+                "list": "- 1 tablespoon thyme"
+            }],
+            "procedure": [{"id":"001",
+                "step": "- Cut cooked liver into small pieces"
+            }, {"id":"002",
+                "step": "- Parboil rice"
+            }, {"id":"003",
+                "step": "- Rinse parboiled rice with cold water then sieve till water drains out"
+            }, {"id":"004",
+                "step": "- Put chicken stock to boil"
+            }, {"id":"005",
+                "step": "- Add parboiled rice, stock/boullion cubes and curry powder"
+            }, {"id":"006",
+                "step": "- Add 2 cups of water and cook to a medium heat for 20 minutes, Fry rice, onions and vegetables in batches"
+            }, {"id":"007",
+                "step": "- And salt to taste."
+            }]
+        }, {
+            "id": "1",
+            "name": "Banana Cake",
+            "desc": "This is a very versatile and fast cake reripe. It is moist and delicious.",
+            "picture": "img/banana-cake.png",
+            "ingredients": [{"id":"202",
+                "list": "- two and half cups all-purpose flour"
+            }, {"id":"203",
+                "list": "- 1 tablespoon baking soda"
+            }, {"id":"204",
+                "list": "- 1 pinch salt"
+            }, {"id":"205",
+                "list": "- half cup unsalted butter"
+            }, {"id":"206",
+                "list": "- 1 cup white sugar"
+            }, {"id":"207",
+                "list": "- three-quarter cup light brown sugar"
+            }, {"id":"208",
+                "list": "- 2 eggs"
+            }, {"id":"209",
+                "list": "- 4 ripe bananas,mashed"
+            }, {"id":"300",
+                "list": "- two-third cup buttermilk"
+            }, {"id":"301",
+                "list": "- half cup chopped walnuts"
+            }],
+            "procedure": [{"id":"007",
+                "step": "- Preheat oven to 350 degrees Fahrenheit"
+            }, {"id":"008",
+                "step": "- Grease and flour 2-8inch round pans"
+            }, {"id":"009",
+                "step": "- In a small bowl, whisk together flour, baking soda and salt, then set aside"
+            }, {"id":"010",
+                "step": "- In a large bowl, cream butter, white sugar and brown sugar until light and fluffy"
+            }, {"id":"011",
+                "step": "- Beat in eggs, one at a time and mix in the bananas"
+            }, {"id":"012",
+                "step": "- Add flour mixture alternately with the buttermilk to the creamed mixture"
+            }, {"id":"013",
+                "step": "- Stir in chopped walnuts and Pour batter into the prepared pans"
+            }, {"id":"014",
+                "step": "- Bake in the preheated oven for 30 minutes"
+            }, {"id":"015",
+                "step": "- Remove from oven, and place on a damp tea towel to cool."
+            }]
+        }, {
+            "id": "5",
+            "name": "Scrambled Eggs",
+            "desc": "This is a dish of fluffy eggs.",
+            "picture": "img/scrambled-eggs.png",
+            "ingredients": [{"id":"302",
+                "list": "- 8 eggs"
+            }, {"id":"303",
+                "list": "- half cup whole milk"
+            }, {"id":"304",
+                "list": "- 2 tablespoons clarified butter or wholw butter"
+            }, {"id":"305",
+                "list": "- salt and white ground peper to taste"
+            }],
+            "procedure": [{"id":"016",
+                "step": "- Crack the eggs into a glass mixing bowl and beat them until they turn a pale yellow color"
+            }, {"id":"017",
+                "step": "- Heat a heavy-bottomed nonstick sauté pan over medium-low heat and add the butter and let it melt"
+            }, {"id":"018",
+                "step": "- Add the milk to the eggs and season to taste with salt and white pepper. Then, grab your whisk and whisk like crazy. You're going to want to work up a sweat here. If you're not up for that, you can use an electric beater or stand mixer with the whisk attachment. Whatever device you use, you're trying to beat as much air as possible into the eggs"
+            }, {"id":"019",
+                "step": "- When the butter in the pan is hot enough to make a drop of water hiss, pour in the eggs. Don't stir!"
+            }, {"id":"020",
+                "step": "- Let the eggs cook for up to a minute or until the bottom starts to set"
+            }, {"id":"021",
+                "step": "- With a heat-resistant rubber spatula, gently push one edge of the egg into the center of the pan, while tilting the pan to allow the still liquid egg to flow in underneath"
+            }, {"id":"022",
+                "step": "- Repeat with the other edges, until there's no liquid left"
+            }, {"id":"023",
+                "step": "- Turn off the heat and continue gently stirring and turning the egg until all the uncooked parts become firm. Don't break up the egg, though. Try to keep the curds as large as possible. If you're adding any other ingredients, now's the time to do it"
+            }, {"id":"024",
+                "step": "- Transfer to a plate when the eggs are set but still moist and soft. Eggs are delicate, so they'll continue to cook for a few moments after they're on the plate."
+            }]
+        }, {
+            "id": "3",
+            "name": "Grilled Salmon",
+            "desc": "Marinated Salmon cooked in a grill.",
+            "picture": "img/grilled-salmon.png",
+            "ingredients": [{"id":"306",
+                "list": "- one and half pounds salmon fillets"
+            }, {"id":"307",
+                "list": "- lemon pepper to taste"
+            }, {"id":"308",
+                "list": "- garlic powder to taste"
+            }, {"id":"309",
+                "list": "- salt to taste"
+            }, {"id":"400",
+                "list": "- one-third cup soy sauce"
+            }, {"id":"401",
+                "list": "- one-third cup brown sugar"
+            }, {"id":"402",
+                "list": "- one-third cup water"
+            }, {"id":"403",
+                "list": "- one-fourth cup vegetable oil"
+            }],
+            "procedure": [{"id":"025",
+                "step": "- Season salmon fillets with lemon pepper, garlic powder, and salt"
+            }, {"id":"026",
+                "step": "- In a small bowl, stir together soy sauce, brown sugar, water, and vegetable oil until sugar is dissolved"
+            }, {"id":"027",
+                "step": "- Place fish in a large resealable plastic bag with the soy sauce mixture, seal, and turn to coat"
+            }, {"id":"028",
+                "step": "- Refrigerate for at least 2 hours"
+            }, {"id":"029",
+                "step": "- Preheat grill for medium heat"
+            }, {"id":"030",
+                "step": "- Lightly oil grill grate, Place salmon on the preheated grill, and discard marinade."
+            }, {"id":"031",
+                "step": "- Cook salmon for 6 to 8 minutes per side, or until the fish flakes easily with a fork."
+            }]
+        }, {
+            "id": "2",
+            "name": "Cucumber Carrot Salad",
+            "desc": "This is a cool and refreshing Asian salad.",
+            "picture": "img/salad.png",
+            "ingredients": [{"id":"404",
+                "list": "- one-quarter cup seasoned rice vinegar"
+            }, {"id":"405",
+                "list": "- 1 teaspoon white sugar"
+            }, {"id":"406",
+                "list": "- half teaspoon vegetable oil"
+            }, {"id":"407",
+                "list": "- one-quarter teaspoon grated peeled ginger"
+            }, {"id":"408",
+                "list": "- one-quarter teaspoon salt"
+            }, {"id":"409",
+                "list": "- 1 cup sliced carrot"
+            }, {"id":"500",
+                "list": "- 2 tablespoons sliced green onion"
+            }, {"id":"501",
+                "list": "- 2 tablespoons minced red bell pepper"
+            }, {"id":"502",
+                "list": "- half cucumber-halved lengthwise, seeded and sliced."
+            }],
+            "procedure": [{"id":"032",
+                "step": "- Whisk rice vinegar, sugar, vegetable oil, ginger, and salt together in a bowl until sugar and salt are dissolved into a smooth dressing"
+            }, {"id":"033",
+                "step": "- Toss carrot, green onion, bell pepper, and cucumber in the dressing to evenly coat"
+            }, {"id":"034",
+                "step": "- Cover bowl with plastic wrap and refrigerate until chilled, about 30 minutes."
+            }]
+        }
+]
+}
